@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Matching Games</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Boogaloo&family=Quicksand:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body class="white-bg-color">
+  <div class="container">
+    <!--Header section includes page title and tag line-->
+    <header>
+      <div class="header yellow-bg-color marvel-image backdrop">
+        <a href="index.html" class="anchor">
+          <h1 class="main-heading heading">Football Heroes</h1>
+          <h2 class="tag-line-header sub-headings">
+            The Football Matching Game
+          </h2>
+        </a>
+      </div>
+    </header>
+    <!--Game grid section including score boxes and time-->
+    <div class="score-box">
+      <div class="score-item score-item-1  red-bg-color sub-headings">
+        Guess:
+        <span class="guess-total">0</span>
+      </div>
+      <div class="score-item score-item-2 red-bg-color  sub-headings">
+        Match:
+        <span class="match-total">0</span>
+      </div>
+      <div class="score-item score-item-3 red-bg-color  sub-headings">
+        Time:
+        <span class="total-time">0:00</span>
+      </div>
+    </div>
+    <div class="game-container"></div>
+    <div>
+      <button id="reset-button" class="block-center yellow-bg-color sub-headings shake">
+        Reset
+      </button>
+    </div>
+    <!--Footer Section-->
+    <footer>
+      <div class="footer red-bg-color">
+        <!--Site map section of footer-->
+        <div>
+          <h4 class="sub-headings">Site Map</h4>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="index.html" class="footer-item">Homepage</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="game.html" class="footer-item">Matching Marvel</a>
+            </li>
+          </ul>
+        </div>
+        
+        <!--Social Media Icons-->
+        <div class="social-media-box">
+          <ul class="social-media-icons">
+            <li>
+              <a target="_blank" href="https://en-gb.facebook.com/" aria-label="Go to Facebook website">
+                <img src="assets/images/fb-icon.webp" alt="Link to Facebook" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/?lang=en" aria-label="Go to Twitter website">
+                <img src="assets/images/twitter-icon.webp" alt="Link to Twitter" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/" aria-label="Go to Instagram website">
+                <img src="assets/images/instagram-icon.webp" alt="Link to Instagram" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.reddit.com/" aria-label="Go to Reddit website">
+                <img src="assets/images/reddit-icon.webp" alt="Link to Reddit" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+  <script src="assets/scripts/timer.js"></script>
+  <script type="module" src="assets/scripts/memorygame.js"></script>
+  <script type="module" src="assets/scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,546 @@
+/* Colours */
+
+.red-bg-color {
+  background-color: #d30010cc;
+}
+
+.green-bg-color {
+  background-color: #50b25f;
+}
+
+.light-blue-bg-color {
+  background-color: #5ebde9;
+}
+
+.white-bg-color {
+  background-color: #ffffff;
+}
+
+.yellow-bg-color {
+  background-color: #f6ee47;
+}
+
+/* Fonts */
+
+.main-heading {
+  font-family: Bangers, cursive;
+  border-radius: 10px 10px 0 0;
+}
+
+.sub-headings {
+  font-family: Boogaloo, cursive;
+  color: #f6ee47;
+}
+
+footer .sub-headings {
+  text-shadow: 4px 4px 0 #000;
+}
+
+/* Background Image (All Pages)*/
+
+body {
+  background-image: url("../images/Football-background.webp");
+  background-size: cover;
+  font-family: Quicksand, sans-serif;
+}
+
+/* Main Container (All Pages)*/
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+
+/* Heading (All Pages)*/
+
+.header {
+  height: fit-content;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px;
+  background-image: url("../images/football-title.webp");
+}
+
+.backdrop {
+  position: relative;
+}
+
+.backdrop:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(255, 255, 255, 0.35); */
+}
+
+.backdrop>a {
+  position: relative;
+  z-index: 1;
+}
+
+.anchor {
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #f6ee47;
+  font-size: 6rem;
+  text-align: center;
+  margin: 0;
+  text-shadow: 6px 4px 0 #000;
+}
+
+/* Used in heading of index.html */
+
+.tag-line {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+}
+
+.tag-line-header {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 4px 4px 0 #000;
+}
+
+/* Shake animation learned from freeCodeCamp (Learn CSS Animation by Building a Ferris Wheel Module) (All Pages) */
+
+.shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* Footer (All Pages) */
+
+.footer {
+  height: fit-content;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  width: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer>div:first-child,
+.footer>div:last-child {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.footer h4 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #f6ee47;
+}
+
+.footer-list {
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.footer-list-item {
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer-item {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.name-tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-tag {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.social-media-box {
+  align-self: center;
+}
+
+.social-media-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.social-media-icons li {
+  display: inline;
+  margin: 5px;
+}
+
+.social-media-icons li a {
+  text-decoration: none;
+  display: block;
+}
+
+/* Instructions Box (index.html)*/
+
+.instructions-container {
+  width: 100%;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.instructions-container p {
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.instructions-container ol {
+  font-size: 1.25rem;
+  padding-left: 25px;
+}
+
+.instruction-headings {
+  font-size: 2.5rem;
+  margin: 10px 0;
+  color: #000;
+}
+
+/* Matching Marvel Game Selection (index.html) */
+
+#matching-marvel {
+  height: fit-content;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  padding: 10px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-image: url(../images/football-heroes.webp);
+  background-size: cover;
+}
+
+#matching-marvel h3 {
+  font-size: 4rem;
+  color: #f6ee47;
+  text-shadow: 6px 4px 0 #000;
+}
+
+.matching-marvel-tag {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: bold;
+}
+
+.play-click {
+  color: #f6ee47;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  text-shadow: 6px 4px 0 #000;
+}
+
+/* Image for marvel Game (game.html) */
+
+.marvel-image {
+  background-image: url(../images/football-pitch.webp);
+  background-size: cover;
+  opacity: 0.9;
+}
+
+/* Marvel game header (game.html) */
+
+.tag-line-header {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 4px 4px 0 #000;
+}
+
+/* Score Board (game.html) */
+
+.score-box {
+  width: 100%;
+  border: 5px solid #000000;
+  margin: 20px auto;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
+}
+
+.score-item-1 {
+  border: 3px solid #000000;
+  font-size: 2rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.score-item-2 {
+  border: 3px solid #000000;
+  font-size: 2rem;
+}
+
+.score-item-3 {
+  border: 3px solid #000000;
+  font-size: 2rem;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Game Grid (game.html)*/
+
+.game-container {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: #000000;
+  border: 10px solid #000000;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.game-item {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/Goal.webp);
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Reset Button (game.html)*/
+
+#reset-button {
+  padding: 0 60px;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: #d30010;
+  font-size: 3rem;
+  text-shadow: -1px -1px 0 #000;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.block-center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* 404 Page */
+
+.error-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsiveness  (All Pages) */
+
+@media screen and (min-width: 2000px) {
+  .game-item {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .game-item {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .game-item {
+    height: 175px;
+  }
+
+  .social-media-icons img {
+    width: 46px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .game-item {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    width: 60%;
+  }
+
+  .game-item {
+    height: 125px;
+  }
+
+  #matching-marvel {
+    width: 100%;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .name-tag {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+
+  .game-item {
+    height: 125px
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 90%;
+  }
+
+  .game-item {
+    height: 125px
+  }
+
+  .game-container {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .heading {
+    font-size: 3.5rem;
+  }
+
+  .tag-line {
+    font-size: 2rem;
+  }
+
+  .score-item {
+    font-size: 1rem;
+  }
+
+  .game-item {
+    height: 100px;
+  }
+
+  #reset-button {
+    padding: 0px 40px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .heading {
+    font-size: 3.25rem;
+  }
+
+  .social-media-icons li a img {
+    width: 40px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .tag-line {
+    font-size: 1rem;
+  }
+
+  #matching-marvel h3 {
+    font-size: 2rem;
+  }
+
+  .play-click {
+    font-size: 2rem;
+  }
+
+  #reset-button {
+    padding: 0px 20px;
+    font-size: 1rem;
+  }
+}
