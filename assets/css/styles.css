@@ -232,6 +232,12 @@ body {
   margin-right: 5px;
 }
 
+.social-media-icons img {
+border:3px solid black;
+border-radius: 15px;
+margin-right:5px;
+}
+
 .social-media-icons li {
   display: inline;
   margin: 5px;
@@ -251,16 +257,26 @@ body {
   margin: 20px auto;
   padding: 10px 20px;
   box-sizing: border-box;
+  background-color: rgba(56, 189, 44, 0.7);
 }
+
+
+
+
+
 
 .instructions-container p {
   font-size: 1.25rem;
-  color: #000;
+  color: #ffffff;
 }
 
 .instructions-container ol {
   font-size: 1.25rem;
   padding-left: 25px;
+}
+
+.instructions-container li {
+  color:#ffffff;
 }
 
 .instruction-headings {
