@@ -1,0 +1,46 @@
+/* Colors */
+
+.red-bg-color {
+    background-color: #d30010cc;
+  }
+  
+  .green-bg-color {
+    background-color: #50b25f;
+  }
+  
+  .light-blue-bg-color {
+    background-color: #5ebde9;
+  }
+  
+  .white-bg-color {
+    background-color: #ffffff;
+  }
+  
+  .yellow-bg-color {
+    background-color: #f6ee47;
+  }
+
+  /* Fonts */
+
+.main-heading {
+    font-family: Bangers, cursive;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .sub-headings {
+    font-family: Boogaloo, cursive;
+    color: #f6ee47;
+  }
+  
+  footer .sub-headings {
+    text-shadow: 4px 4px 0 #000;
+  }
+
+  /* Background Image (For all pages)*/
+
+body {
+    background-image: url("../images/Football-background.webp");
+    background-size: cover;
+    font-family: Quicksand, sans-serif;
+  }
+  
